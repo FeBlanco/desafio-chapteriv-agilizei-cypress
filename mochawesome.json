@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-12-06T00:55:11.377Z",
-    "end": "2021-12-06T00:55:43.693Z",
-    "duration": 32316,
+    "start": "2022-02-19T23:20:16.574Z",
+    "end": "2022-02-19T23:20:36.354Z",
+    "duration": 19780,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "e4d4fb65-72b5-410f-aefe-79d5fca67888",
+      "uuid": "5eaecc46-7759-4c5b-9af7-653523580cff",
       "title": "",
       "fullFile": "cypress/integration/acessarEcadastrar.spec.js",
       "file": "cypress/integration/acessarEcadastrar.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "569bdc3f-b1d3-4afb-9039-5a05f2afe375",
+          "uuid": "019a6440-3018-419c-87d8-d24bb7ac6624",
           "title": "AcessarPaginadeCadastro",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Quando Acessar a pagina inicial, entrar em sign in para preenchimento do email para ser encaminhado a pagina de cadastro ",
               "fullTitle": "AcessarPaginadeCadastro Quando Acessar a pagina inicial, entrar em sign in para preenchimento do email para ser encaminhado a pagina de cadastro ",
               "timedOut": null,
-              "duration": 29136,
+              "duration": 17244,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "//Suites de testes pagina inicial -> pagina authentication -> pagina do cadastro\n//  pagina inicial\ncy.visit('http://automationpractice.com/index.php');\ncy.get('.login').click(); // pagina authentication\ncy.url().should('contain', 'http://automationpractice.com/index.php?controller=authentication&back=my-account');\ncy.get('.page-heading');\ncy.get('input[id=email_create]').type(chance.email());\ncy.get('button[id=SubmitCreate]').click(); // pagina do cadastro -> informações pessoais\ncy.url().should('contain', 'http://automationpractice.com/index.php?controller=authentication&back=my-account');\ncy.get('input[id=id_gender1]').check();\ncy.get('input[id=customer_firstname]').type(chance.first());\ncy.get('input[id=customer_lastname]').type(chance.last());\ncy.get('input[id=email]').click();\ncy.get('input[id=passwd]').type('Bl@anco');\ncy.get('select#days').select('10', {\n  force: true\n});\ncy.get('select#months').select('April', {\n  force: true\n});\ncy.get('select#years').select('2010', {\n  force: true\n});\ncy.get('input[id=newsletter]').check();\ncy.get('input[id=optin]').check(); // pagina do cadastro -> informações do endereço\ncy.get('input[id=firstname]').type(chance.first());\ncy.get('input[id=lastname]').type(chance.last());\ncy.get('input[id=company]').type(chance.company());\ncy.get('input[id=address1]').type(chance.street(), chance.state());\ncy.get('input[id=address2]').type(chance.address());\ncy.get('input[id=city]').type(chance.city());\ncy.get('select#id_state').select('Florida', {\n  force: true\n});\ncy.get('input[id=postcode]').type(chance.zip()); // cy.get('select#id_country').select('United States', { force: true})\ncy.get('textarea[id=other]').type(chance.syllable());\ncy.get('input[id=phone]').type(chance.phone());\ncy.get('input[id=phone_mobile]').type(chance.phone());\ncy.get('input[id=alias]').type(chance.address());\ncy.get('button[id=submitAccount]').click(); // pagina \"minha conta\"\ncy.url().should('contain', 'http://automationpractice.com/index.php?controller=my-account');\ncy.get('.page-heading');",
               "err": {},
-              "uuid": "4de6e37c-7528-482b-80ba-855f0558cd1b",
-              "parentUUID": "569bdc3f-b1d3-4afb-9039-5a05f2afe375",
+              "uuid": "bc18c72c-1fc7-442d-971f-737d7da8ed87",
+              "parentUUID": "019a6440-3018-419c-87d8-d24bb7ac6624",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "4de6e37c-7528-482b-80ba-855f0558cd1b"
+            "bc18c72c-1fc7-442d-971f-737d7da8ed87"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 29136,
+          "duration": 17244,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
