@@ -11,7 +11,7 @@
   
 - ⚡ Requisitos ->
   
-  [node](https://nodejs.org/en/http:// "node"),  [vscode](https://code.visualstudio.com/"vscode"),
+  [node](https://nodejs.org/en/http:// "node"),  [vscode](https://code.visualstudio.com/Download "vscode"),
   chrome
 - ⚡ Inicializar ->
 
