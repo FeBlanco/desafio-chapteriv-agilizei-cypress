@@ -6,11 +6,12 @@
 [Relatório](https://feblanco.github.io/desafio-chapteriv-agilizei-cypress "Relatório")
 
 
-  https://user-images.githubusercontent.com/43914674/144771088-8e5f7dca-fa17-4696-b181-6d307f975734.gif
+ ![acessarEcadastrar spec js](https://user-images.githubusercontent.com/43914674/158023118-1094e67d-87f6-4d26-ad9f-8191d98d3b6b.gif)
+
   
 - ⚡ Requisitos ->
   
-  [node](https://nodejs.org/en/http:// "node"), 
+  [node](https://nodejs.org/en/http:// "node"),  [vscode](https://code.visualstudio.com/"vscode"),
   chrome
 - ⚡ Inicializar ->
 
